@@ -95,6 +95,16 @@ While functional, the current dashboard version has several known limitations:
   - `gpt2` as the model name
 - ⏳ Does not show **remaining time estimation** during probe execution
 - 📊 Although **z-scores per detector** are already implemented in the backend, they are not yet exposed in the dashboard UI
+- 📈 The dashboard currently shows only the **number of failed prompts per detector**, but could be improved to display the **failures out of total tests (fail/total)** for better clarity and completeness
 - 🧪 Limited to what Garak exposes through its CLI and output formats
 
 These are all areas we aim to improve in future versions for better fault-tolerance and user experience.
+
+---
+
+## 🎥 Video Walkthrough
+
+Watch the full walkthrough of the dashboard here:  
+▶️ [Invisible Hands Dashboard Walkthrough on YouTube](https://youtu.be/JsF-Q7ZBdko)
+
+This video demonstrates how to launch the dashboard, run tests, and explore detailed probe and detector results.
